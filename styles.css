@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #002339;
+  color: white;
+}
+.container {
+  margin-top: 8%;
+  margin-left: 10%;
+  width: 60%;
+  max-width: 450px;
+}
+.display {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 13px;
+  background: #fff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px;
+  border-radius: 5px;
+}
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+.container h1 span {
+  color: #019f55;
+  font-weight: bold;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 7px;
+}
+.display img {
+  width: 30px;
+  cursor: pointer;
+}
+.display input {
+  width: 400px;
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+}
+.container button img {
+  width: 28px;
+  margin-right: 10px;
+}
+.container button {
+  border: 0;
+  outline: 0;
+  color: #fff;
+  background: #019f55;
+  font-size: 22px;
+  font-weight: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container button:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #047942;
+}
+.logo img {
+  position: absolute;
+  top: 19%;
+  left: 60%;
+  width: 350px;
+}
+/* Media queries for max-width 768px */
+@media (max-width: 768px) {
+  .container button {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+
+  .logo img {
+    width: 250px;
+    top: 15%;
+    left: 50%;
+  }
+}
+
+/* Media queries for max-width 350px */
+@media (max-width: 350px) {
+  .container button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .logo img {
+    width: 180px;
+    top: 12%;
+    left: 45%;
+  }
+}
